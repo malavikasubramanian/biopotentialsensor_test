@@ -1,54 +1,55 @@
 # biopotentialsensor_test
 
-Overview
+# Overview
 >This GitHub repository contains the code for a project that enables Electroencephalogram (EEG) monitoring using the BioAmp EXG Pill and Maker Uno. The BioAmp EXG Pill, a compact chip from Upside Down Labs, records biopotential signals from the brain, while the Maker Uno serves as the microcontroller board for data acquisition and transmission.
 
-Project Description
+# Project Description
 > In this project, we leverage the capabilities of the BioAmp EXG Pill to capture EEG signals from the visual cortex part of the brain. The goal is to provide a simple yet effective setup for EEG monitoring, allowing users to record and visualize brainwave activity.
 
-Hardware Requirements
-BioAmp EXG Pill
-BioAmp Cable
-Gel Electrodes
-Jumper Cables
-Nuprep Skin Preparation Gel
-Wet Wipe
-Brain BioAmp Band (optional)
-Electrode Gel (if using Brain BioAmp Band)
-Microcontroller Board:
+# Hardware Requirements
+1. BioAmp EXG Pill
+2. BioAmp Cable
+3. Gel Electrodes
+4. Jumper Cables
+5. Nuprep Skin Preparation Gel
+6. Wet Wipe
+7. Brain BioAmp Band (optional)
+8. Electrode Gel (if using Brain BioAmp Band)
+9. Microcontroller Board
+10. Arduino Uno 
+11. USB Cable
 
-Arduino Uno or Maker Uno
-USB Cable
-Software Requirements
-Arduino IDE
-Backyard Brains' Spike Recorder
-Repository Contents
-EEG_Monitoring_Code.ino: Arduino code for the Maker Uno, responsible for sampling EEG signals, handling commands, and interfacing with the BioAmp EXG Pill.
-Instructions
-Assemble Hardware:
+# Software Requirements
 
-Follow the hardware assembly steps outlined in the project documentation.
-Connect the BioAmp EXG Pill to the Maker Uno as instructed.
-Install Software:
+1. Arduino IDE
+2. Backyard Brains' Spike Recorder
 
-Download and install the Arduino IDE from Arduino Software.
-Download Backyard Brains' Spike Recorder from Spike Recorder.
-Upload Code:
+# Repository Contents
+arduino_code: Arduino code for the Maker Uno, responsible for sampling EEG signals, handling commands, and interfacing with the BioAmp EXG Pill.
 
-Open the arduino_code.py file in the Arduino IDE.
-Connect the Maker Uno to your computer using the USB cable.
-Upload the code to the Maker Uno.
-Configure Spike Recorder:
+# Instructions
+1. Assemble Hardware
 
-Start Spike Recorder and access settings.
-Choose the COM port of the Maker Uno.
-Apply a 50Hz notch filter and set low bandpass filter to 1Hz and high bandpass filter to 14Hz.
-Close settings and start recording EEG signals.
-Visualize EEG:
+2. Download and install the Arduino IDE from Arduino Software.
+3. Download Backyard Brains' Spike Recorder from Spike Recorder.
+4. Upload Code
 
-Observe brainwave signals on the Spike Recorder screen.
-Experiment with different features of Spike Recorder for signal visualization.
-Important Notes
-Ensure correct electrode placement for accurate EEG monitoring.
-Carefully follow GND and VCC connections to prevent sensor damage.
-Familiarize yourself with Spike Recorder features for effective signal visualization.
+5. Open the arduino_code.py file in the Arduino IDE.
+6. Connect the Maker Uno to your computer using the USB cable.
+7. Upload the code to the Maker Uno.
+8. Configure Spike Recorder
+
+9. Start Spike Recorder and access settings.
+10. Choose the COM port of the Arduino Uno.
+11. Apply a 50Hz notch filter and set low bandpass filter to 1Hz and high bandpass filter to 14Hz.
+12. Close settings and start recording EEG signals.
+
+# Visualize EEG:
+
+1. Observe brainwave signals on the Spike Recorder screen.
+2. Experiment with different features of Spike Recorder for signal visualization.
+   
+# Important Notes
+1. Ensure correct electrode placement for accurate EEG monitoring.
+2. Carefully follow GND and VCC connections to prevent sensor damage.
+3. Familiarize yourself with Spike Recorder features for effective signal visualization.
