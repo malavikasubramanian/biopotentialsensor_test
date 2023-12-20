@@ -25,7 +25,7 @@
 2. Backyard Brains' Spike Recorder
 
 # Repository Contents
-arduino_code: Arduino code for the Maker Uno, responsible for sampling EEG signals, handling commands, and interfacing with the BioAmp EXG Pill.
+arduino code: Arduino code for the Arduino Uno, responsible for sampling EEG signals, handling commands, and interfacing with the BioAmp EXG Pill.
 
 # Instructions
 1. Assemble Hardware
